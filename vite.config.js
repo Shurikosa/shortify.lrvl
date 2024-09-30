@@ -6,7 +6,11 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
+                'resources/css/nicepage.css',
+                'resources/css/landing.css',
                 'resources/js/app.js',
+                'resources/js/nicepage.js',
+                'resources/js/jquery-1.9.1.min.js'
             ],
             refresh: true,
         }),
