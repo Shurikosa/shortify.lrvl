@@ -711,14 +711,14 @@
 						<span class="u-file-icon u-icon u-text-palette-1-base u-icon-1"
                               data-animation-name="" data-animation-duration="0"
                               data-animation-delay="0" data-animation-direction=""><img
-                                src="/static/images/154843-21a3d3b6.png" alt=""></span>
+                                src="{{Vite::asset('/resources/icons/154843-21a3d3b6.png')}}" alt=""></span>
                     <h4
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-3">Generated
                         Links</h4>
                     <p
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-4"
                         data-animation-name="counter" data-animation-event="scroll"
-                        data-animation-duration="3000">100</p>
+                        data-animation-duration="3000">{{rand(360, 10000)}}</p>
                 </div>
             </div>
             <div
@@ -749,7 +749,7 @@
                     <p
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-6"
                         data-animation-name="counter" data-animation-event="scroll"
-                        data-animation-duration="3000">80</p>
+                        data-animation-duration="3000">{{rand(1000,20000)}}</p>
                 </div>
             </div>
             <div
@@ -761,14 +761,14 @@
 						<span class="u-file-icon u-icon u-text-palette-1-base u-icon-3"
                               data-animation-name="" data-animation-duration="0"
                               data-animation-delay="0" data-animation-direction=""><img
-                                src="/static/images/10401171-bbbb0c77.png" alt=""></span>
+                                src="{{Vite::asset('/resources/icons/10401171-bbbb0c77.png')}}" alt=""></span>
                     <h4
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-7">Generated
                         QR - codes</h4>
                     <p
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-8"
                         data-animation-name="counter" data-animation-event="scroll"
-                        data-animation-duration="3000">600</p>
+                        data-animation-duration="3000">{{ rand(360,10000) }}</p>
                 </div>
             </div>
             <div
@@ -794,7 +794,7 @@
                     <p
                         class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-10"
                         data-animation-name="counter" data-animation-event="scroll"
-                        data-animation-duration="3000">76</p>
+                        data-animation-duration="3000">{{rand(500,2500)}}</p>
                 </div>
             </div>
         </div>
